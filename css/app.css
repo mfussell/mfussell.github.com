@@ -7703,8 +7703,3 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important;
 }
-
-/* line 4, ../scss/app.scss */
-body {
-  background: blue;
-}
