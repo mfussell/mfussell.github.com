@@ -1,0 +1,129 @@
+@import "settings";
+@import "../foundation/scss/foundation";
+@import "twentytwenty";
+
+body {
+  background: #eee;
+}
+
+
+/**** GALLERY */
+
+.g {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin:0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 2rem;
+
+    img {
+      margin: 0;
+    }
+
+    .caption {
+      position: absolute;
+      border: 2px solid #fff;
+      width: 100%;
+      bottom:0;
+      background: rgba(255, 255, 255, 0.9); 
+      opacity: 0;
+      transition: all 0.3s ease-in;
+      padding: 1rem;
+    }
+
+    &:hover {
+      .caption {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/**** Fullbleed */
+.fb {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+
+  h1 {
+    bottom: 1rem;
+    color: #eee;
+    text-shadow: 1px 1px 2px #000;
+  }
+  img {
+    border-radius: 0;
+  }
+
+  .twentytwenty-handle {
+    top: 250px;
+  }
+}
+
+.container.content {
+  clear: both;
+  background: #fff;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  @include grid-row($behavior: collapse);
+  margin: auto;
+  position: relative;
+
+}
+
+.title-container {
+  position: absolute;
+  top: 4rem;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;;
+  background: rgba(0,0,0, .5);
+
+  @include grid-column(
+    // Control the number of columns
+    $columns:8,
+    $push:2,
+    $center:true,
+    $collapse:false
+  );
+
+  .post-summary {
+    color: #fff;
+  }
+}
+
+.post {
+  margin-top: 1rem;
+  
+  @include grid-column(
+    // Control the number of columns
+    $columns:12,
+    $center:true,
+    $collapse:false
+  );
+  @media #{$medium-up}  {
+    @include grid-column(
+      // Control the number of columns
+      $columns:10,
+      $push:2,
+      $center:true,
+      $collapse:false
+    );
+  }
+
+  .post-date {
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    font-size: .8rem;
+  }
+}
+
+.related,
+.comments {
+  @include grid-column(
+    $columns:10,
+    $push: 2
+  );
+}
