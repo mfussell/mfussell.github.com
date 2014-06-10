@@ -8,7 +8,7 @@ sections:
 ---
 
 <p>
-I brought out the heavy artillery - rat traps, chicken wire, smoke bombs - but I know when to admit defeat. The rats were goign to make their way into the dirt in our backyard regardless of my efforts to prevent them. 
+I brought out the heavy artillery - rat traps, chicken wire, smoke bombs - but I know when to admit defeat. The rats were going to make their way into the dirt in our backyard regardless of my efforts to prevent them. 
 </p>
 
 <ul class="g">
