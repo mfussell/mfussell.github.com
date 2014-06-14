@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>eggsfordinner</title>
- <link href="http://eggsfordinner.com/atom.xml" rel="self"/>
- <link href="http://eggsfordinner.com/"/>
- <updated>2014-06-10T11:25:26-04:00</updated>
- <id>http://eggsfordinner.com</id>
+ <title>Michael Fussell</title>
+ <link href="http://michaelfussell.com/atom.xml" rel="self"/>
+ <link href="http://michaelfussell.com/"/>
+ <updated>2014-06-14T12:16:25-04:00</updated>
+ <id>http://michaelfussell.com</id>
  <author>
    <name>Mike Fussell</name>
    <email>fussell@gmail.com</email>
@@ -13,73 +13,105 @@
 
  
  <entry>
-   <title>Bienvenidos</title>
-   <link href="http://eggsfordinner.com//2014/06/08/welcome/"/>
-   <updated>2014-06-08T00:00:00-04:00</updated>
-   <id>http://eggsfordinner.com/2014/06/08/welcome</id>
-   <content type="html">&lt;p&gt;Mike Fussell&lt;/p&gt;
+   <title>CSS loading animations</title>
+   <link href="http://michaelfussell.com//loading-animations"/>
+   <updated>2014-06-13T00:00:00-04:00</updated>
+   <id>http://michaelfussell.com/css-loading</id>
+   <content type="html">&lt;div class=&quot;animations clearfix&quot;&gt;
+  &lt;div class=&quot;loading-box ani-1&quot;&gt;
+    &lt;div class=&quot;loader&quot;&gt;Loading...&lt;/div&gt;
+  &lt;/div&gt;
 
-&lt;p&gt;I work for NPR. I build websites (mostly for NPR)&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plus.google.com/photos/101036522831333817858?banner=pwa&quot;&gt;photos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;div class=&quot;loading-box ani-2&quot;&gt;
+    &lt;div class=&quot;loader&quot;&gt;Loading...&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;loading-box ani-3&quot;&gt;
+    &lt;div class=&quot;loader&quot;&gt;Loading...&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;loading-box ani-4&quot;&gt;
+    &lt;div class=&quot;loader&quot;&gt;Loading...&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Removing the rat nest</title>
-   <link href="http://eggsfordinner.com//removing-our-rowhouse-garden"/>
+   <link href="http://michaelfussell.com//removing-our-rowhouse-garden"/>
    <updated>2014-06-08T00:00:00-04:00</updated>
-   <id>http://eggsfordinner.com/removing-the-rat-nest</id>
+   <id>http://michaelfussell.com/removing-the-rat-nest</id>
    <content type="html">&lt;p&gt;
 I brought out the heavy artillery - rat traps, chicken wire, smoke bombs - but I know when to admit defeat. The rats were going to make their way into the dirt in our backyard regardless of my efforts to prevent them. 
 &lt;/p&gt;
 
 &lt;ul class=&quot;g&quot;&gt;
   &lt;li&gt;
-    &lt;a href=&quot;/assets/images/garden/1.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/1.jpg&quot;&gt;&lt;/a&gt;
-    &lt;div class=&quot;caption&quot;&gt;Time for this rat incubator to go.&lt;/div&gt;
+    &lt;a href=&quot;/assets/images/garden/1.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/1.jpg&quot;&gt;
+      &lt;div class=&quot;caption&quot;&gt;Time for this rat incubator to go.&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Just some dirt and some bricks. Looks easy enough&quot; href=&quot;/assets/images/garden/2.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/2.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Just some dirt and some bricks. Looks easy enough&quot; href=&quot;/assets/images/garden/2.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/2.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Just some dirt and some bricks. Looks easy enough&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;It was pretty easy to dismantle the bricks with a hammer and a chisel&quot; href=&quot;/assets/images/garden/3.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/3.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;It was pretty easy to dismantle the bricks with a hammer and a chisel&quot; href=&quot;/assets/images/garden/3.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/3.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;It was pretty easy to dismantle the bricks with a hammer and a chisel&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;The hard part was getting all the dirt, shovel full by shovel full, from the backyard, through the fence and into the back of the truck&quot; href=&quot;/assets/images/garden/4.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/4.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;The hard part was getting all the dirt, shovel full by shovel full, from the backyard, through the fence and into the back of the truck&quot; href=&quot;/assets/images/garden/4.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/4.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;The hard part was getting all the dirt, shovel full by shovel full, from the backyard, through the fence and into the back of the truck&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Man, this dirt is heavy!&quot; href=&quot;/assets/images/garden/5.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/5.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Man, this dirt is heavy!&quot; href=&quot;/assets/images/garden/5.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/5.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Man, this dirt is heavy!&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Man, this dirt is heavy!&quot; href=&quot;/assets/images/garden/5.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/5.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Man, this dirt is heavy!&quot; href=&quot;/assets/images/garden/5.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/5.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Man, this dirt is heavy!&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;All loaded up&quot; href=&quot;/assets/images/garden/6.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/6.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;All loaded up&quot; href=&quot;/assets/images/garden/6.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/6.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;All loaded up&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Here I am at the city dump. More shoveling...&quot; href=&quot;/assets/images/garden/7.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/7.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Here I am at the city dump. More shoveling...&quot; href=&quot;/assets/images/garden/7.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/7.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Here I am at the city dump. More shoveling...&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Vultures all around&quot; href=&quot;/assets/images/garden/8.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/8.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Vultures all around&quot; href=&quot;/assets/images/garden/8.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/8.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Vultures all around&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Looking better&quot; href=&quot;/assets/images/garden/9.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/9.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Looking better&quot; href=&quot;/assets/images/garden/9.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/9.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Looking better&lt;/div&gt;
+    &lt;/a&gt;
+    
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a title=&quot;Another shot of the backyard&quot; href=&quot;/assets/images/garden/10.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/10.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a title=&quot;Another shot of the backyard&quot; href=&quot;/assets/images/garden/10.jpg&quot;&gt;&lt;img src=&quot;/assets/images/garden/10.jpg&quot;&gt;
     &lt;div class=&quot;caption&quot;&gt;Another shot of the backyard&lt;/div&gt;
+    &lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -87,9 +119,9 @@ I brought out the heavy artillery - rat traps, chicken wire, smoke bombs - but I
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://eggsfordinner.com//2013/12/31/whats-jekyll/"/>
+   <link href="http://michaelfussell.com//2013/12/31/whats-jekyll/"/>
    <updated>2013-12-31T00:00:00-05:00</updated>
-   <id>http://eggsfordinner.com/2013/12/31/whats-jekyll</id>
+   <id>http://michaelfussell.com/2013/12/31/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;

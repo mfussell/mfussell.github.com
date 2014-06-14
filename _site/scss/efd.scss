@@ -46,50 +46,82 @@ body {
 /**** Fullbleed */
 .fb {
   position: relative;
-  height: 500px;
-  overflow: hidden;
+  max-width: 1400px;
+  margin: auto;
 
-  h1 {
-    bottom: 1rem;
-    color: #eee;
-    text-shadow: 1px 1px 2px #000;
-  }
   img {
     border-radius: 0;
   }
 
-  .twentytwenty-handle {
-    top: 250px;
+  .title-container {
+    position: static;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    top: 1rem;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;;
+    background: rgba(0,0,0, .5);
+
+    @include grid-column(
+      // Control the number of columns
+      $columns:10,
+      $push:1,
+      $center:true,
+      $collapse:false
+    );
+
+    @media #{$medium-up}  {
+      position: absolute;
+    }
+      
+    h1 {
+      font-size: 1.8rem;
+      bottom: 1.8rem;
+      color: #eee;
+      text-shadow: 1px 1px 2px #000;
+      font-family: "Oxygen", Helvetica, sans-serif;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    .comment-count {
+      position: absolute;
+      right:1.25rem;
+      bottom: 1.25rem;
+      background: rgba(0,0,0, .6);
+      color: #eee;
+      font-size: 22px;
+
+      a {
+        color: #eee;
+      }
+    }
   }
 }
 
 .container.content {
   clear: both;
   background: #fff;
-  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  
   @include grid-row($behavior: collapse);
   margin: auto;
   position: relative;
 
+  @media #{$medium-up}  {
+    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  }
 }
 
-.title-container {
-  position: absolute;
-  top: 4rem;
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;;
-  background: rgba(0,0,0, .5);
+.inner-wrap {
+  height: 100%;
+}
 
-  @include grid-column(
-    // Control the number of columns
-    $columns:8,
-    $push:2,
-    $center:true,
-    $collapse:false
-  );
-
-  .post-summary {
-    color: #fff;
+aside{
+  img{
+    border-radius:0;
   }
 }
 

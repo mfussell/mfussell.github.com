@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            eggsfordinner
-tagline:          notes by Michael Fussell
-url:              http://eggsfordinner.com
+title:            Michael Fussell
+tagline:          notes code snippets and whatnot
+url:              http://michaelfussell.com
 paginate:         1
 baseurl:          /
 author:
@@ -22,4 +22,6 @@ github:
   repo:           https://github.com/mfussell
 
 # This is the list of pages to incldue in the header of the website.
-pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
+pages_list: 
+  About: '/about'
+  Blog: '/blog'

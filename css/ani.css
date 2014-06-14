@@ -1,0 +1,331 @@
+/* line 2, ../scss/ani.scss */
+.animations {
+  width: 80%;
+  margin: auto;
+}
+
+/* line 6, ../scss/ani.scss */
+.loading-box {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  float: left;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+/* line 21, ../scss/ani.scss */
+.ani-1 .loader,
+.ani-1 .loader:before,
+.ani-1 .loader:after {
+  background: #222;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+/* line 29, ../scss/ani.scss */
+.ani-1 .loader:before,
+.ani-1 .loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+/* line 34, ../scss/ani.scss */
+.ani-1 .loader:before {
+  left: -1.5em;
+}
+/* line 37, ../scss/ani.scss */
+.ani-1 .loader {
+  text-indent: -9999em;
+  margin: 8em auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+/* line 45, ../scss/ani.scss */
+.ani-1 .loader:after {
+  left: 1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+@-webkit-keyframes load1 {
+  /* line 54, ../scss/ani.scss */
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #222;
+    height: 4em;
+  }
+
+  /* line 58, ../scss/ani.scss */
+  40% {
+    box-shadow: 0 -2em #222222;
+    height: 5em;
+  }
+}
+
+@keyframes load1 {
+  /* line 66, ../scss/ani.scss */
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #222;
+    height: 4em;
+  }
+
+  /* line 70, ../scss/ani.scss */
+  40% {
+    box-shadow: 0 -2em #222222;
+    height: 5em;
+  }
+}
+
+/* line 79, ../scss/ani.scss */
+.ani-2 .loader,
+.ani-2 .loader:before,
+.ani-2 .loader:after {
+  border-radius: 50%;
+}
+/* line 83, ../scss/ani.scss */
+.ani-2 .loader:before,
+.ani-2 .loader:after {
+  position: absolute;
+  content: '';
+}
+/* line 87, ../scss/ani.scss */
+.ani-2 .loader:before {
+  width: 5.2em;
+  height: 10.2em;
+  background: #fff;
+  border-radius: 10.2em 0 0 10.2em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 5.2em 5.1em;
+  transform-origin: 5.2em 5.1em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+/* line 99, ../scss/ani.scss */
+.ani-2 .loader {
+  font-size: 11px;
+  text-indent: -99999em;
+  margin: 5em auto;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em #222;
+}
+/* line 108, ../scss/ani.scss */
+.ani-2 .loader:after {
+  width: 5.2em;
+  height: 10.2em;
+  background: #fff;
+  border-radius: 0 10.2em 10.2em 0;
+  top: -0.1em;
+  left: 5.1em;
+  -webkit-transform-origin: 0px 5.1em;
+  transform-origin: 0px 5.1em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+
+@-webkit-keyframes load2 {
+  /* line 123, ../scss/ani.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 127, ../scss/ani.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load2 {
+  /* line 133, ../scss/ani.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 137, ../scss/ani.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes load2 {
+  /* line 144, ../scss/ani.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 148, ../scss/ani.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load2 {
+  /* line 154, ../scss/ani.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 158, ../scss/ani.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* line 167, ../scss/ani.scss */
+.ani-3 .loader:before,
+.ani-3 .loader:after,
+.ani-3 .loader {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load3 1.8s infinite ease-in-out;
+  animation: load3 1.8s infinite ease-in-out;
+}
+/* line 176, ../scss/ani.scss */
+.ani-3 .loader {
+  margin: 8em auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation-delay: 0.16s;
+  animation-delay: 0.16s;
+}
+/* line 184, ../scss/ani.scss */
+.ani-3 .loader:before {
+  left: -3.5em;
+}
+/* line 187, ../scss/ani.scss */
+.ani-3 .loader:after {
+  left: 3.5em;
+  -webkit-animation-delay: 0.32s;
+  animation-delay: 0.32s;
+}
+/* line 193, ../scss/ani.scss */
+.ani-3 .loader:before,
+.ani-3 .loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+
+@-webkit-keyframes load3 {
+  /* line 202, ../scss/ani.scss */
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em #222222;
+  }
+
+  /* line 205, ../scss/ani.scss */
+  40% {
+    box-shadow: 0 2.5em 0 0 #222;
+  }
+}
+
+@keyframes load3 {
+  /* line 212, ../scss/ani.scss */
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em #222222;
+  }
+
+  /* line 215, ../scss/ani.scss */
+  40% {
+    box-shadow: 0 2.5em 0 0 #222;
+  }
+}
+
+/* line 222, ../scss/ani.scss */
+.ani-4 .loader {
+  font-size: 10px;
+  margin: 5em auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #222222;
+  background: -moz-linear-gradient(left, #222222 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #222222 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #222222 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #222222 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #222222 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load4 1.4s infinite linear;
+  animation: load4 1.4s infinite linear;
+}
+/* line 239, ../scss/ani.scss */
+.ani-4 .loader:before {
+  width: 50%;
+  height: 50%;
+  background: #222;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+/* line 249, ../scss/ani.scss */
+.ani-4 .loader:after {
+  background: #fff;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@-webkit-keyframes load4 {
+  /* line 264, ../scss/ani.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 268, ../scss/ani.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load4 {
+  /* line 274, ../scss/ani.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 278, ../scss/ani.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

@@ -9415,29 +9415,70 @@ body {
 /* line 47, ../scss/efd.scss */
 .fb {
   position: relative;
-  height: 500px;
-  overflow: hidden;
+  max-width: 1400px;
+  margin: auto;
 }
 /* line 52, ../scss/efd.scss */
-.fb h1 {
-  bottom: 1rem;
-  color: #eee;
-  text-shadow: 1px 1px 2px #000;
-}
-/* line 57, ../scss/efd.scss */
 .fb img {
   border-radius: 0;
 }
-/* line 61, ../scss/efd.scss */
-.fb .twentytwenty-handle {
-  top: 250px;
+/* line 56, ../scss/efd.scss */
+.fb .title-container {
+  position: static;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  top: 1rem;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 83.33333%;
+  left: 8.33333%;
+  right: auto;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 56, ../scss/efd.scss */
+  .fb .title-container {
+    position: absolute;
+  }
+}
+/* line 78, ../scss/efd.scss */
+.fb .title-container h1 {
+  font-size: 1.8rem;
+  bottom: 1.8rem;
+  color: #eee;
+  text-shadow: 1px 1px 2px #000;
+  font-family: "Oxygen", Helvetica, sans-serif;
+}
+/* line 86, ../scss/efd.scss */
+.fb .title-container h4 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+/* line 90, ../scss/efd.scss */
+.fb .title-container .comment-count {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #eee;
+  font-size: 22px;
+}
+/* line 98, ../scss/efd.scss */
+.fb .title-container .comment-count a {
+  color: #eee;
 }
 
-/* line 66, ../scss/efd.scss */
+/* line 105, ../scss/efd.scss */
 .container.content {
   clear: both;
   background: #fff;
-  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
   width: 100%;
   margin: 0;
   max-width: 62.5rem;
@@ -9454,30 +9495,24 @@ body {
 .container.content:after {
   clear: both;
 }
-
-/* line 76, ../scss/efd.scss */
-.title-container {
-  position: absolute;
-  top: 4rem;
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;
-  background: rgba(0, 0, 0, 0.5);
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 66.66667%;
-  left: 16.66667%;
-  right: auto;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-}
-/* line 91, ../scss/efd.scss */
-.title-container .post-summary {
-  color: #fff;
+@media only screen and (min-width: 40.063em) {
+  /* line 105, ../scss/efd.scss */
+  .container.content {
+    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+  }
 }
 
-/* line 96, ../scss/efd.scss */
+/* line 118, ../scss/efd.scss */
+.inner-wrap {
+  height: 100%;
+}
+
+/* line 123, ../scss/efd.scss */
+aside img {
+  border-radius: 0;
+}
+
+/* line 128, ../scss/efd.scss */
 .post {
   margin-top: 1rem;
   padding-left: 0.9375rem;
@@ -9489,7 +9524,7 @@ body {
   float: none;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 96, ../scss/efd.scss */
+  /* line 128, ../scss/efd.scss */
   .post {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9502,7 +9537,7 @@ body {
     float: none;
   }
 }
-/* line 115, ../scss/efd.scss */
+/* line 147, ../scss/efd.scss */
 .post .post-date {
   position: absolute;
   right: .5rem;
@@ -9510,7 +9545,7 @@ body {
   font-size: .8rem;
 }
 
-/* line 124, ../scss/efd.scss */
+/* line 156, ../scss/efd.scss */
 .related,
 .comments {
   padding-left: 0.9375rem;

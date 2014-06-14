@@ -24,7 +24,11 @@ jQuery( document ).ready(function( $ ) {
         });
       });
   jQuery(window).load(function() {
-  jQuery("#compare1").twentytwenty();
-});
+    jQuery("#compare1").twentytwenty();
+  });
+  jQuery('#disqus_thread').click( function() {
+    console.log ('close offcanvas nav');
+    jQuery('.exit-off-canvas').click();
+  });
 });
 
