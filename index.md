@@ -1,12 +1,17 @@
 ---
 layout: page
-title: Home
+title: Welcome
 ---
 
 <p class="message">
-  Hey there! My name is Mike Fussell. I work for NPR. I build websites.
+  Hey there! My name is Mike Fussell. I'm a front-end developer and I work for NPR.<br>
+  <hr>
+  This site is meant to serve as a space for me to record thoughts on various issues as well as what I learn, both at work and at home. Follow along or don't. Really, it's just to prevent me from having to solve the same issue more than once. Oh, and to record some photos along the way.
   cheers!
 </p>
+<div class="about-pic">
+  <img src="/assets/me_beach.png">
+</div>
 
 <div class="pagination">
   {% if paginator.next_page %}

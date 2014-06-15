@@ -6,6 +6,18 @@ body {
   background: #eee;
 }
 
+.about-pic {
+  margin:auto;
+  max-width: 400px;
+
+  img  {
+   -moz-border-radius:50%;
+   -webkit-border-radius:50%;
+   border-radius:50%;
+  width:400px;
+  height:400px;
+}
+}
 
 /**** GALLERY */
 
