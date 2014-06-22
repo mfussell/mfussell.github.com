@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS loading animations
+title: CSS loading animations 3
 permalink: loading-animations
 css: ani
 sections:

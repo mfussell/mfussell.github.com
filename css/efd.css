@@ -6565,15 +6565,15 @@ html, body {
 
 /* line 78, ../foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width: 9999px)/";
+  width: 9999px;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
 /* line 86, ../foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: red;
 }
 /* line 90, ../foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -6613,7 +6613,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: red;
   margin-bottom: 0;
 }
 /* line 129, ../foundation/scss/foundation/components/_top-bar.scss */
@@ -6664,7 +6664,7 @@ meta.foundation-mq-topbar {
 /* line 166, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
   font-weight: normal;
-  color: white;
+  color: #999999;
   width: 50%;
   display: block;
   padding: 0 15px;
@@ -6677,7 +6677,7 @@ meta.foundation-mq-topbar {
 }
 /* line 182, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar a {
-  color: white;
+  color: #999999;
   text-transform: uppercase;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -6700,7 +6700,7 @@ meta.foundation-mq-topbar {
   line-height: 33px;
   padding: 0;
   padding-right: 25px;
-  color: white;
+  color: #333333;
   position: relative;
 }
 /* line 212, ../foundation/scss/foundation/components/_top-bar.scss */
@@ -6712,8 +6712,8 @@ meta.foundation-mq-topbar {
   width: 16px;
   top: 0;
   height: 0;
-  -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
-  box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+  -webkit-box-shadow: 0 10px 0 1px #333333, 0 16px 0 1px #333333, 0 22px 0 1px #333333;
+  box-shadow: 0 10px 0 1px #333333, 0 16px 0 1px #333333, 0 22px 0 1px #333333;
 }
 /* line 235, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded {
@@ -6722,16 +6722,16 @@ meta.foundation-mq-topbar {
 }
 /* line 239, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: red;
 }
 /* line 242, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
-  color: #888888;
+  color: purple;
 }
 /* line 243, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span {
-  -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
-  box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+  -webkit-box-shadow: 0 10px 0 1px orange, 0 16px 0 1px orange, 0 22px 0 1px orange;
+  box-shadow: 0 10px 0 1px orange, 0 16px 0 1px orange, 0 22px 0 1px orange;
 }
 
 /* line 263, ../foundation/scss/foundation/components/_top-bar.scss */
@@ -6748,14 +6748,14 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  background: white;
   font-size: 16px;
   margin: 0;
 }
 /* line 279, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px maroon;
   clear: both;
   height: 1px;
   width: 100%;
@@ -6764,13 +6764,13 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: white;
+  color: #999999;
   padding: 12px 0 12px 0;
   padding-left: 15px;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
-  background: #333333;
+  background: white;
 }
 /* line 298, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
@@ -6809,18 +6809,18 @@ meta.foundation-mq-topbar {
 }
 /* line 329, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover > a {
-  background: #272727;
-  color: white;
+  background: limegreen;
+  color: #444444;
 }
 /* line 336, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
   background: #008cba;
-  color: white;
+  color: #333333;
 }
 /* line 339, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
   background: #0078a0;
-  color: white;
+  color: #333333;
 }
 /* line 347, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
@@ -6881,7 +6881,7 @@ meta.foundation-mq-topbar {
 }
 /* line 394, ../foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a {
-  color: white;
+  color: #999999;
   line-height: 22.5px;
   display: block;
 }
@@ -6908,10 +6908,10 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 9999px) {
   /* line 420, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: red;
     *zoom: 1;
     overflow: visible;
   }
@@ -6945,7 +6945,7 @@ meta.foundation-mq-topbar {
   }
   /* line 437, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #333333;
+    background: red;
   }
 
   /* line 440, ../foundation/scss/foundation/components/_top-bar.scss */
@@ -6978,24 +6978,24 @@ meta.foundation-mq-topbar {
   }
   /* line 463, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background: #272727;
-    color: white;
+    background: limegreen;
+    color: #444444;
   }
   /* line 469, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    background: #333333;
+    background: red;
   }
   /* line 473, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #272727;
+    background: limegreen;
   }
   /* line 477, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    color: white;
+    color: #333333;
     background: #008cba;
   }
   /* line 482, ../foundation/scss/foundation/components/_top-bar.scss */
@@ -7048,7 +7048,7 @@ meta.foundation-mq-topbar {
   }
   /* line 534, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li a {
-    color: white;
+    color: #999999;
     line-height: 1;
     white-space: nowrap;
     padding: 12px 15px;
@@ -7068,14 +7068,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #4e4e4e;
+    border-right: solid 1px #ff2121;
     clear: none;
     height: 45px;
     width: 0;
   }
   /* line 565, ../foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #333333;
+    background: red;
     padding: 0 15px;
     height: 45px;
   }
@@ -7100,13 +7100,13 @@ meta.foundation-mq-topbar {
 
   /* line 595, ../foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
-    color: white;
+    background: limegreen;
+    color: #444444;
   }
   /* line 601, ../foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
     background: #008cba;
-    color: white;
+    color: #333333;
   }
   /* line 609, ../foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -8200,15 +8200,15 @@ html, body {
 /* line 278, ../foundation/scss/foundation/components/_offcanvas.scss */
 nav.tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
-  color: white;
+  background: white;
+  color: #222222;
   height: 2.8125rem;
   line-height: 2.8125rem;
   position: relative;
 }
 /* line 141, ../foundation/scss/foundation/components/_offcanvas.scss */
 nav.tab-bar h1, nav.tab-bar h2, nav.tab-bar h3, nav.tab-bar h4, nav.tab-bar h5, nav.tab-bar h6 {
-  color: white;
+  color: #222222;
   font-weight: bold;
   line-height: 2.8125rem;
   margin: 0;
@@ -8224,8 +8224,8 @@ section.left-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #1a1a1a;
-  box-shadow: 1px 0 0 #4e4e4e;
+  border-right: solid 1px gray;
+  box-shadow: 1px 0 0 white;
   left: 0;
 }
 
@@ -8235,8 +8235,8 @@ section.right-small {
   height: 2.8125rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #4e4e4e;
-  box-shadow: -1px 0 0 #1a1a1a;
+  border-left: solid 1px white;
+  box-shadow: -1px 0 0 gray;
   right: 0;
 }
 
@@ -8278,7 +8278,7 @@ a.menu-icon {
   display: block;
   line-height: 2.0625rem;
   padding: 0;
-  color: white;
+  color: #333333;
   position: relative;
 }
 /* line 298, ../foundation/scss/foundation/components/_offcanvas.scss */
@@ -8289,13 +8289,13 @@ a.menu-icon span {
   height: 0;
   left: 0.8125rem;
   top: 0.3125rem;
-  -webkit-box-shadow: 1px 10px 1px 1px white, 1px 16px 1px 1px white, 1px 22px 1px 1px white;
-  box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+  -webkit-box-shadow: 1px 10px 1px 1px #444444, 1px 16px 1px 1px #444444, 1px 22px 1px 1px #444444;
+  box-shadow: 0 10px 0 1px #444444, 0 16px 0 1px #444444, 0 22px 0 1px #444444;
 }
 /* line 318, ../foundation/scss/foundation/components/_offcanvas.scss */
 a.menu-icon:hover span {
-  -webkit-box-shadow: 1px 10px 1px 1px #b3b3b3, 1px 16px 1px 1px #b3b3b3, 1px 22px 1px 1px #b3b3b3;
-  box-shadow: 0 10px 0 1px #b3b3b3, 0 16px 0 1px #b3b3b3, 0 22px 0 1px #b3b3b3;
+  -webkit-box-shadow: 1px 10px 1px 1px #303030, 1px 16px 1px 1px #303030, 1px 22px 1px 1px #303030;
+  box-shadow: 0 10px 0 1px #303030, 0 16px 0 1px #303030, 0 22px 0 1px #303030;
 }
 
 /* line 330, ../foundation/scss/foundation/components/_offcanvas.scss */
@@ -8306,7 +8306,7 @@ a.menu-icon:hover span {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: white;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(-100%, 0, 0);
@@ -8328,7 +8328,7 @@ a.menu-icon:hover span {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: white;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-transform: translate3d(100%, 0, 0);
@@ -8360,8 +8360,8 @@ ul.off-canvas-list li label {
 ul.off-canvas-list li a {
   display: block;
   padding: 0.66667rem;
-  color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid #262626;
+  color: rgba(68, 68, 68, 0.7);
+  border-bottom: 1px solid #bfbfbf;
 }
 
 /* line 339, ../foundation/scss/foundation/components/_offcanvas.scss */
@@ -9084,6 +9084,34 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
+/*
+New Syntax, allows to optionally calculate on a different base value to counter compounding effect of rem's.
+Call with 1, 2, 3 or 4 parameters, 'px' is not required but supported:
+
+  rem-calc(10 20 30px 40);
+
+Space delimited, if you want to delimit using comma's, wrap it in another pair of brackets
+
+  rem-calc((10, 20, 30, 40px));
+
+Optionally call with a different base (eg: 8px) to calculate rem.
+
+  rem-calc(16px 32px 48px, 8px);
+
+If you require to comma separate your list
+
+  rem-calc((16px, 32px, 48), 8px);
+*/
+/* line 10, ../foundation/scss/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 28, ../foundation/scss/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
 /* line 33, ../scss/twentytwenty.scss */
 .twentytwenty-horizontal .twentytwenty-handle:before, .twentytwenty-horizontal .twentytwenty-handle:after, .twentytwenty-vertical .twentytwenty-handle:before, .twentytwenty-vertical .twentytwenty-handle:after {
   content: " ";
@@ -9372,44 +9400,25 @@ th.hide-for-touch {
   margin-bottom: -17px;
 }
 
-/* line 5, ../scss/efd.scss */
-body {
-  background: #eee;
-}
-
-/* line 9, ../scss/efd.scss */
-.about-pic {
-  margin: auto;
-  max-width: 400px;
-}
-/* line 13, ../scss/efd.scss */
-.about-pic img {
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-}
-
 /**** GALLERY */
-/* line 24, ../scss/efd.scss */
+/* line 3, ../scss/_gallery.scss */
 .g {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 29, ../scss/efd.scss */
+/* line 8, ../scss/_gallery.scss */
 .g li {
   margin: 0;
   padding: 0;
   position: relative;
   margin-bottom: 2rem;
 }
-/* line 35, ../scss/efd.scss */
+/* line 14, ../scss/_gallery.scss */
 .g li img {
   margin: 0;
 }
-/* line 39, ../scss/efd.scss */
+/* line 18, ../scss/_gallery.scss */
 .g li .caption {
   position: absolute;
   border: 2px solid #fff;
@@ -9420,23 +9429,85 @@ body {
   transition: all 0.3s ease-in;
   padding: 1rem;
 }
-/* line 51, ../scss/efd.scss */
+/* line 30, ../scss/_gallery.scss */
 .g li:hover .caption {
   opacity: 1;
 }
 
+/* line 6, ../scss/efd.scss */
+body {
+  background: #eee;
+  transition: all .4 ease-in;
+}
+/* line 10, ../scss/efd.scss */
+body.menu-active {
+  background: #fff;
+}
+/* line 13, ../scss/efd.scss */
+body p {
+  font-size: 22px;
+}
+
+/* line 18, ../scss/efd.scss */
+.menu-active a.menu-icon span {
+  background: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2220px%22%20width%3D%2220px%22%20viewBox%3D%220%200%2034%2035%22%20version%3D%221.1%22%3E%3Cpath%20d%3D%22M6.39893848%2C33.050809%20C5.02584196%2C34.4239055%202.81048583%2C34.4231842%201.44365081%2C33.0563492%20C0.0795970273%2C31.6922954%200.0792962237%2C29.4709563%201.44919101%2C28.1010615%20L12.0502525%2C17.5%20L1.44919101%2C6.89893848%20C0.0760944872%2C5.52584196%200.0768157928%2C3.31048583%201.44365081%2C1.94365081%20C2.8077046%2C0.579597027%205.02904369%2C0.579296224%206.39893848%2C1.94919101%20L17%2C12.5502525%20L27.6010615%2C1.94919101%20C28.974158%2C0.576094487%2031.1895142%2C0.576815793%2032.5563492%2C1.94365081%20C33.920403%2C3.3077046%2033.9207038%2C5.52904369%2032.550809%2C6.89893848%20L21.9497475%2C17.5%20L32.550809%2C28.1010615%20C33.9239055%2C29.474158%2033.9231842%2C31.6895142%2032.5563492%2C33.0563492%20C31.1922954%2C34.420403%2028.9709563%2C34.4207038%2027.6010615%2C33.050809%20L17%2C22.4497475%20L6.39893848%2C33.050809%20Z%22%20fill%3D%22%23F7F7F7%22%2F%3E%3C%2Fsvg%3E");
+  border: 0;
+  box-shadow: 0;
+}
+
+/* line 24, ../scss/efd.scss */
+.comment-count a {
+  margin-left: .5em;
+}
+
+/* line 27, ../scss/efd.scss */
+.move-right a.exit-off-canvas {
+  box-shadow: 0;
+}
+
+/* line 31, ../scss/efd.scss */
+.toggle-topbar {
+  line-height: 0;
+}
+
+/* line 35, ../scss/efd.scss */
+.sm3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 40, ../scss/efd.scss */
+.about-pic {
+  margin: auto;
+  max-width: 400px;
+}
+/* line 44, ../scss/efd.scss */
+.about-pic img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+/* line 54, ../scss/efd.scss */
+.content {
+  padding-top: 2em;
+}
+
 /**** Fullbleed */
-/* line 59, ../scss/efd.scss */
+/* line 60, ../scss/efd.scss */
 .fb {
   position: relative;
   max-width: 1400px;
   margin: auto;
+  clear: both;
 }
-/* line 64, ../scss/efd.scss */
+/* line 65, ../scss/efd.scss */
 .fb img {
   border-radius: 0;
 }
-/* line 68, ../scss/efd.scss */
+/* line 69, ../scss/efd.scss */
 .fb .title-container {
   position: static;
   padding: 1rem;
@@ -9457,12 +9528,12 @@ body {
   float: none;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 68, ../scss/efd.scss */
+  /* line 69, ../scss/efd.scss */
   .fb .title-container {
     position: absolute;
   }
 }
-/* line 90, ../scss/efd.scss */
+/* line 91, ../scss/efd.scss */
 .fb .title-container h1 {
   font-size: 1.8rem;
   bottom: 1.8rem;
@@ -9470,12 +9541,12 @@ body {
   text-shadow: 1px 1px 2px #000;
   font-family: "Oxygen", Helvetica, sans-serif;
 }
-/* line 98, ../scss/efd.scss */
+/* line 99, ../scss/efd.scss */
 .fb .title-container h4 {
   font-size: 1.2rem;
   color: #fff;
 }
-/* line 102, ../scss/efd.scss */
+/* line 103, ../scss/efd.scss */
 .fb .title-container .comment-count {
   position: absolute;
   right: 1.25rem;
@@ -9484,15 +9555,19 @@ body {
   color: #eee;
   font-size: 22px;
 }
-/* line 110, ../scss/efd.scss */
+/* line 111, ../scss/efd.scss */
 .fb .title-container .comment-count a {
   color: #eee;
 }
 
-/* line 117, ../scss/efd.scss */
+/* line 118, ../scss/efd.scss */
+nav.tab-bar {
+  margin-bottom: 2rem;
+}
+
+/* line 122, ../scss/efd.scss */
 .container.content {
   clear: both;
-  background: #fff;
   width: 100%;
   margin: 0;
   max-width: 62.5rem;
@@ -9510,35 +9585,37 @@ body {
   clear: both;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 117, ../scss/efd.scss */
+  /* line 122, ../scss/efd.scss */
   .container.content {
     box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
   }
 }
 
-/* line 130, ../scss/efd.scss */
+/* line 133, ../scss/efd.scss */
 .inner-wrap {
   height: 100%;
 }
 
-/* line 135, ../scss/efd.scss */
+/* line 138, ../scss/efd.scss */
 aside img {
   border-radius: 0;
 }
 
-/* line 140, ../scss/efd.scss */
+/* line 144, ../scss/efd.scss */
+.page,
 .post {
   margin-top: 1rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 100%;
+  width: 50%;
   float: left;
   margin-left: auto;
   margin-right: auto;
   float: none;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 140, ../scss/efd.scss */
+  /* line 144, ../scss/efd.scss */
+  .page,
   .post {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -9551,7 +9628,8 @@ aside img {
     float: none;
   }
 }
-/* line 159, ../scss/efd.scss */
+/* line 163, ../scss/efd.scss */
+.page .post-date,
 .post .post-date {
   position: absolute;
   right: .5rem;
@@ -9559,7 +9637,7 @@ aside img {
   font-size: .8rem;
 }
 
-/* line 168, ../scss/efd.scss */
+/* line 172, ../scss/efd.scss */
 .related,
 .comments {
   padding-left: 0.9375rem;

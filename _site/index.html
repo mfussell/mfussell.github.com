@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -10,7 +11,7 @@
 
   <title>
     
-      Welcome &middot; Michael Fussell
+      Michael Fussell &middot; notes code snippets and whatnot
     
   </title>
 
@@ -19,20 +20,24 @@
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/css/efd.css">
-  <link rel="stylesheet" href="/foundation/css/foundation.min.css">
+
   <link rel="stylesheet" href="/css/magnific-popup.css">
   <link rel="stylesheet" href="/fontawesome/css/font-awesome.min.css">
   <script src="/foundation/js/vendor/jquery.js" type="text/javascript"></script>
   <script type="text/javascript" src="/foundation/js/foundation.min.js"></script>
   <script type="text/javascript" src="/foundation/js/foundation/foundation.offcanvas.js"></script>
+   <script type="text/javascript" src="/foundation/js/foundation/foundation.topbar.js"></script>
   <script type="text/javascript" src="/js/scripts.js"></script>
   <script type="text/javascript" src="/js/jquery.magnific.popup.min.js"></script>
   <script type="text/javascript" src="/js/modernizr.js"></script>
   <script type="text/javascript" src="/js/jquery.twentytwenty.js"></script>
   <script type="text/javascript" src="/js/jquery.event.move.js"></script>
+  <script type="text/javascript" src="/js/infinite.js"></script>
     <script>
     $(document).foundation();
   </script>
+
+ <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -40,38 +45,64 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+ 
 </head>
 
 
   <body>
-
   <div class="off-canvas-wrap" data-offcanvas>
     <div class="inner-wrap">
-
        <!-- Off Canvas Menu -->
        <nav class="tab-bar">
         <section class="left-small">
+        <ul class="sm3">
+          <li class="toggle-topbar menu-icon">
           <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+          </li>
+        </ul>
         </section>
         <section class="middle tab-bar-section">
           <a href="/"><h1 class="title">michael fussell</h1></a>
         </section>
+
+
+
+        <aside class="left-off-canvas-menu">
+        <img src="/assets/my_head.png">
+        <div class="top-bar expanded" data-topbar >
+          <section class="top-bar-section">
+            <ul class="off-canvas-list">
+              <li><a href="/">Home</a></li>
+              
+                <li><a href="/about">About</a></li>
+              
+                <li><a href="/blog">Blog</a></li>
+              
+              <li class="has-dropdown">
+                <a href="#">Photos</a>
+                <ul class="dropdown">
+                  <li><a href="http://www.instagram.com/mfussell">Photos on Instagram</a></li>
+                  <li><a href="http://picasaweb.google.com/fussell">Albums on Google+</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#">Baltimore Links</a>
+                <ul class="dropdown">
+                  <li><a href="http://www.bmoreinterested.com/">Bmore Interested</a></li>
+                  <li><a href="http://citythatbreeds.com/">City that Breeds</a></li>
+                  
+                </ul>
+
+            </ul>
+          </section>
+        </div>
+      </aside>
+      
       </nav>
 
-      <aside class="left-off-canvas-menu">
-          <ul class="off-canvas-list">
-            <img src="/assets/my_head.png">
-            <li><a href="/">Home</a></li>
-            
-              <li><a href="/about">About</a></li>
-            
-              <li><a href="/blog">Blog</a></li>
-            
-          </ul>
-      </aside>
 
-   
+
+
 
 
     <div class="container content">
@@ -79,35 +110,92 @@
       
     
 
-      <div class="page">
-  <p class="message">
-  Hey there! My name is Mike Fussell. I'm a front-end developer and I work for NPR.<br>
-  <hr>
-  <p>
-  This site is meant to serve as a space for me to record thoughts on various issues as well as what I learn, both at work and at home. 
-  </p>
-  <p>
-  
-  Follow along or don't. Really, it's just to prevent me from having to solve the same issue more than once. Oh, and to record some photos along the way.
-  cheers!
-</p>
+      <div class="posts">
+    
+  <div class="post">
+    <h1 class="post-title">
+      <a href="//Parking in Baltimore">
+        Parking in Baltimore
+      </a>
+    </h1>
+<ul>
+<li>
+    <h2>Parking in Baltimore</h2>
+    <p class="meta">20 Jun 2014</p>
 
-<div class="about-pic">
-  <img src="/assets/me_beach.png">
+    <div class="post">
+    <p>Parking in any city is a bitch.
+<div class="row">
+<ul class="g">
+  <li>
+    <a href="/assets/tickets.png">
+      <img src="/assets/tickets.png">
+    </a>
+  </li>
+</ul>
+</div></p>
+
+    </div>
+</li>
+</ul>
+
+  </div>
+    
+  <div class="post">
+    <h1 class="post-title">
+      <a href="//loading-animations">
+        CSS loading animations 3
+      </a>
+    </h1>
+<ul>
+<li>
+    <h2>CSS loading animations 3</h2>
+    <p class="meta">13 Jun 2014</p>
+
+    <div class="post">
+    <div class="animations clearfix">
+  <div class="loading-box ani-1">
+    <div class="loader">Loading...</div>
+  </div>
+
+
+  <div class="loading-box ani-2">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <div class="loading-box ani-3">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <div class="loading-box ani-4">
+    <div class="loader">Loading...</div>
+  </div>
+</div>
+
+    </div>
+</li>
+</ul>
+
+  </div>
+  
 </div>
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <a class="pagination-item older" href="/page2">Older</a>
   
   
     <span class="pagination-item newer">Newer</span>
   
 </div>
+<div class="infinite-spinner"></div>
 
-</div>
-
+               
       
+
+
+
+
 
 
       <div class="footer">
@@ -119,11 +207,12 @@
     </div>
 
   <!-- close the off-canvas menu -->
-  <a class="exit-off-canvas"></a>
-
+  
   </div>
 </div>
-            <script type="text/javascript">
+
+<!-- For comment count -->
+    <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'michaelfussell'; // required: replace example with your forum shortname
 
@@ -135,5 +224,6 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
+
   </body>
 </html>

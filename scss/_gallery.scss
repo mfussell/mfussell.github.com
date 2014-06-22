@@ -1,0 +1,35 @@
+/**** GALLERY */
+
+.g {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin:0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 2rem;
+
+    img {
+      margin: 0;
+    }
+
+    .caption {
+      position: absolute;
+      border: 2px solid #fff;
+      width: 100%;
+      bottom:0;
+      background: rgba(255, 255, 255, 0.9); 
+      opacity: 0;
+      transition: all 0.3s ease-in;
+      padding: 1rem;
+    }
+
+    &:hover {
+      .caption {
+        opacity: 1;
+      }
+    }
+  }
+}

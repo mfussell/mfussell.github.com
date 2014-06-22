@@ -1,5 +1,18 @@
 jQuery( document ).ready(function( $ ) {
+
+  $('.inner-wrap').css('min-height', $(window).height() + 45 +  'px');
+  $('.container.content').css('min-height', $(window).height() + 45 + 'px');
+
+  $('a.left-off-canvas-toggle').click(function() {
+    $('.container.content').css('min-height', $(window).height() + 200 + 'px');
+    $('.left-off-canvas-menu').css('min-height', $('.container.content').height() + 45);
+    $('body').toggleClass('menu-active');
+  });
+
+
+
   jQuery('.g').each(function() {
+        $("div img").hide().filter(":first-child").show();
         var that = this;
 
         $(this).magnificPopup({
@@ -23,9 +36,18 @@ jQuery( document ).ready(function( $ ) {
           }
         });
       });
+     $(document).foundation({
+        topbar: {
+          custom_back_text: true,
+          back_text: 'back',
+          mobile_show_parent_link: true
+        }
+      });
+
   jQuery(window).load(function() {
     jQuery("#compare1").twentytwenty();
   });
+ 
   jQuery('#disqus_thread').click( function() {
     console.log ('close offcanvas nav');
     jQuery('.exit-off-canvas').click();
