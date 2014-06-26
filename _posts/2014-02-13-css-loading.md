@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSS loading animations 3
-permalink: loading-animations
+permalink: blog/css-loading-animations
 css: ani
 sections:
 ---

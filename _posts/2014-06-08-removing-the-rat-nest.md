@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Removing our garden
-permalink: removing-our-rowhouse-garden
-did: Removing the rat nest
+permalink: blog/removing-our-rowhouse-garden
 comments: true
 sections:
   fb-photo: <div id="compare1" class='twentytwenty-container'><img src="/assets/images/garden/1.jpg"><img src="/assets/images/garden/10.jpg"></div>

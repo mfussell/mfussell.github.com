@@ -9574,6 +9574,7 @@ nav.tab-bar {
   *zoom: 1;
   margin: auto;
   position: relative;
+  background: #fff;
 }
 /* line 137, ../foundation/scss/foundation/components/_global.scss */
 .container.content:before, .container.content:after {
@@ -9591,30 +9592,38 @@ nav.tab-bar {
   }
 }
 
-/* line 133, ../scss/efd.scss */
+/* line 134, ../scss/efd.scss */
 .inner-wrap {
   height: 100%;
 }
 
-/* line 138, ../scss/efd.scss */
+/* line 139, ../scss/efd.scss */
 aside img {
   border-radius: 0;
 }
 
 /* line 144, ../scss/efd.scss */
+.posts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 151, ../scss/efd.scss */
 .page,
 .post {
   margin-top: 1rem;
+  background: #fff;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 50%;
+  width: 100%;
   float: left;
   margin-left: auto;
   margin-right: auto;
   float: none;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 144, ../scss/efd.scss */
+  /* line 151, ../scss/efd.scss */
   .page,
   .post {
     padding-left: 0.9375rem;
@@ -9628,16 +9637,17 @@ aside img {
     float: none;
   }
 }
-/* line 163, ../scss/efd.scss */
+/* line 171, ../scss/efd.scss */
 .page .post-date,
 .post .post-date {
-  position: absolute;
   right: .5rem;
   top: .5rem;
   font-size: .8rem;
+  margin-top: .5rem;
+  text-align: right;
 }
 
-/* line 172, ../scss/efd.scss */
+/* line 181, ../scss/efd.scss */
 .related,
 .comments {
   padding-left: 0.9375rem;

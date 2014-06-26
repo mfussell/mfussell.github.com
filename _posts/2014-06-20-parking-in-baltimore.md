@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Parking in Baltimore
-permalink: Parking in Baltimore
-sections:
+permalink: blog/Parking-in-Baltimore
 ---
 Parking in any city is a bitch.
-<div class="row">
+
+ajhf owhf owefh oewuh ew
 <ul class="g">
   <li>
     <a href="/assets/tickets.png">
@@ -13,4 +13,3 @@ Parking in any city is a bitch.
     </a>
   </li>
 </ul>
-</div>

@@ -124,6 +124,7 @@ nav.tab-bar {
   @include grid-row($behavior: collapse);
   margin: auto;
   position: relative;
+  background: #fff;
 
   @media #{$medium-up}  {
     box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
@@ -140,13 +141,20 @@ aside{
   }
 }
 
+.posts {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
 .page,
 .post {
   margin-top: 1rem;
+  background: #fff;
   
   @include grid-column(
     // Control the number of columns
-    $columns:6,
+    $columns:12,
     $center:true,
     $collapse:false
   );
@@ -161,10 +169,11 @@ aside{
   }
 
   .post-date {
-    position: absolute;
     right: .5rem;
     top: .5rem;
     font-size: .8rem;
+    margin-top: .5rem;
+    text-align: right;
   }
 }
 

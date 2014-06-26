@@ -36,6 +36,7 @@ jQuery( document ).ready(function( $ ) {
           }
         });
       });
+     $('.g li:not(:first-child)').hide();
      $(document).foundation({
         topbar: {
           custom_back_text: true,
