@@ -16,7 +16,12 @@
         </ul>
         </section>
         <section class="middle tab-bar-section">
-          <a href="/"><h1 class="title">michael fussell</h1></a>
+        {% if page.url != '/' %}
+          <a href="/">home</a> >>  {{page.title}}
+         
+        {% else %}
+          <a href="/"><h1 class="title">home</h1></a>
+        {% endif %}
         </section>
 
 
@@ -26,7 +31,9 @@
         <div class="top-bar expanded" data-topbar >
           <section class="top-bar-section">
             <ul class="off-canvas-list">
+            
               <li><a href="/">Home</a></li>
+            
               {% for page in site.pages_list %}
                 <li><a href="{{ page[1]  }}">{{ page[0] }}</a></li>
               {% endfor %}
