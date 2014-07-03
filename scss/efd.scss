@@ -15,6 +15,17 @@ body {
   }
 }
 
+.myname {
+  text-align:center;
+  font-size: 55px;
+  font-family: monospace;
+  margin-top: 1.5em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 4px solid #eee;
+}
+
 .logobox {
   position: relative;
   margin: auto;

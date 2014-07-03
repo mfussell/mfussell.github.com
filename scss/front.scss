@@ -1,6 +1,148 @@
 .post {
   opacity: 0;
   transition: all 1s ease-in;
-  box-shadow: 0 -4px #eee;
+  padding-bottom: 40px;
   margin-bottom: 55px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.arrow-wrap {
+  position:fixed;
+  z-index:1;
+  left:50%;
+  top:80%;
+  margin-left:-5em;
+  background:#111;
+  width:10em;
+  height:10em;
+  padding:4em 2em;
+  border-radius:50%;
+  font-size:0.5em;
+  display:block;
+}
+
+.myname {
+  margin-top: 3em;
+}
+
+
+.arrow {
+  float:left;
+  position:relative;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #ffffff transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+.arrow:after {
+  content:'';
+  position:absolute;
+  top:-3.2em;
+  left:-3em;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 3em 3em 0 3em;
+  border-color: #111 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+}
+
+
+
+
+.logo_container {
+    position:relative;
+    left: 20%;
+    margin-top:50px;
+    /* -moz-animation:spinoffPulse 5s infinite linear;
+    -webkit-animation:spinoffPulse 5s infinite linear;
+    
+      -moz-animation:pulse 3s infinite ease-in-out;
+    -webkit-animation:pulse 3s infinite ease-in-out;*/
+}
+.logo {
+    margin: -338px auto;
+    position:absolute;
+}
+.circle1 {
+    position:absolute;
+    -webkit-transform-origin: 167px 167px;
+    -moz-animation:counterClockwiseSpin 5s infinite ease-in;
+    -webkit-animation:counterClockwiseSpin 5s infinite ease-in;
+}
+.circle2 {
+    position:absolute;
+    -webkit-transform-origin: 167px 167px;
+    -moz-animation:clockwiseSpin 1s infinite ease-out;
+    -webkit-animation:clockwiseSpin 1s infinite ease-out;
+}
+.circle3 {
+    position:absolute;
+    -webkit-transform-origin: 167px 167px;
+     -moz-animation:clockwiseSpin 8s infinite ease-in-out;
+    -webkit-animation:clockwiseSpin 8s infinite ease-in-out;
+}
+.circle4 {
+    position:absolute;
+    -moz-transform-origin: 167px 167px;
+    -webkit-transform-origin: 167px 167px;
+    -moz-animation:clockwiseSpin 8s infinite ease;
+    -webkit-animation:clockwiseSpin 8s infinite ease;
+}
+.circle5 {
+    position:relative;
+    -moz-transform-origin: 167px 167px;
+    -webkit-transform-origin: 167px 167px;
+    -moz-animation:clockwiseSpin 3s infinite;
+    -webkit-animation:clockwiseSpin 3s infinite;
+}
+
+.x_ring {
+    position:relative;
+    margin: -288px 0px 0px -55px;
+}
+.y_ring {
+    position:relative;
+    margin: -333px 0px 0px 33px;
+}
+.white_particles {
+    position:absolute;
+    margin: -350px 0px 0px -35px;
+    -moz-animation:pulse 8s infinite ease-in-out;
+    -webkit-animation:pulse 8s infinite ease-in-out;
+}
+.orange_particles {
+    position:absolute;
+    margin: -332px 0px 0px 42px;
+    -moz-animation:pulse 6s infinite ease-in-out;
+    -webkit-animation:pulse 6s infinite ease-in-out;
+}
+@-webkit-keyframes pulse {
+    0% {-webkit-transform:scale(1, 1);}
+    50% {-webkit-transform:scale(1.1, 1.1)}
+    100% {-webkit-transform:scale(1, 1);}
+}
+@-moz-keyframes pulse {
+    0% {-moz-transform:scale(1, 1);}
+    50% {-moz-transform:scale(1.1, 1.1);}
+    100% {-moz-transform:scale(1, 1);}
+}
+@-moz-keyframes clockwiseSpin {
+    0% {-moz-transform:rotate(0deg);}
+    100% {-moz-transform:rotate(360deg);}
+}
+@-webkit-keyframes clockwiseSpin {
+    0% {-webkit-transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes counterClockwiseSpin {
+    0% {-moz-transform:rotate(0deg);}
+    100% {-moz-transform:rotate(-360deg);}
+}
+@-webkit-keyframes counterClockwiseSpin {
+    0% {-webkit-transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(-360deg);}
 }

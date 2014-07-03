@@ -8,8 +8,8 @@ jQuery( document ).ready(function( $ ) {
     $('.left-off-canvas-menu').css('min-height', $('.container.content').height() + 45);
     $('body').toggleClass('menu-active');
   });
-
-
+   
+   
     $('.g').each(function() {
 
         $(this).find('li:not(:first-child)').hide();

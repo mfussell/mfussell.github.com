@@ -4,7 +4,7 @@
  <title>Michael Fussell</title>
  <link href="http://michaelfussell.com/atom.xml" rel="self"/>
  <link href="http://michaelfussell.com/"/>
- <updated>2014-07-02T23:18:05-04:00</updated>
+ <updated>2014-07-03T14:58:43-04:00</updated>
  <id>http://michaelfussell.com</id>
  <author>
    <name>Mike Fussell</name>
@@ -143,6 +143,18 @@ I brought out the heavy artillery - rat traps, chicken wire, smoke bombs - but I
     &lt;div class=&quot;loader&quot;&gt;Loading...&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/ani.css&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview with Eugenie Benser</title>
+   <link href="http://michaelfussell.com//blog/interview-eugenie-benser"/>
+   <updated>2013-02-13T00:00:00-05:00</updated>
+   <id>http://michaelfussell.com/blog/the-signal</id>
+   <content type="html">&lt;p&gt;As heard on WYPR&amp;#39;s &lt;a href=&quot;http://programs.wypr.org/podcast/8913-highlandtown%E2%80%99s-eugenie-benser&quot;&gt;The Signal&lt;/a&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/157157758&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </content>
  </entry>
  

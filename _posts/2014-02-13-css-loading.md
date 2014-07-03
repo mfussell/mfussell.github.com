@@ -23,3 +23,4 @@ sections:
     <div class="loader">Loading...</div>
   </div>
 </div>
+<link rel="stylesheet" href="{{ site.baseurl }}css/ani.css">
