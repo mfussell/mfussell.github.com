@@ -26,6 +26,20 @@ body {
   border-bottom: 4px solid #eee;
 }
 
+.footer {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #eee;
+  
+  text-align: center;
+  width: 100%;
+
+  p {
+  font-size: 12px;
+  }
+}
+
 .logobox {
   position: relative;
   margin: auto;
