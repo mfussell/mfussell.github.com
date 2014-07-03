@@ -20,14 +20,42 @@ body {
   margin: auto;
   width: 80px;
   height: 80px;
+  left: 50%;
+  top: 50%;
+  border: 1px solid blue;
+  transition: all 1s ease-in;
+}
+
+.scrolled {
+
+  .logobox {
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+
+  h1.sitelogo {
+    transition: all 0.3s ease;
+    font-size: 35px;
+    text-align: center;
+    width: 60px;
+    line-height: 50px;
+    height: 60px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    border-radius: 50%;
+    font-variant: small-caps;
+  }
+
 }
 h1.sitelogo {
   transition: all 0.3s ease;
-  font-size: 35px;
+  font-size: 99px;
   text-align: center;
-  width: 60px;
+  width: 400px;
   line-height: 50px;
-  height: 60px;
+  height: 400px;
   left: 10px;
   top: 10px;
   position: absolute;
@@ -188,7 +216,6 @@ nav.tab-bar {
   @include grid-row($behavior: collapse);
   margin: auto;
   position: relative;
-  background: #fff;
 
   @media #{$medium-up}  {
 
@@ -215,7 +242,6 @@ aside{
 .page,
 .post {
   margin-top: 1rem;
-  background: #fff;
   
   @include grid-column(
     // Control the number of columns
