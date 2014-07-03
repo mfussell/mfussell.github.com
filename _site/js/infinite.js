@@ -1,3 +1,35 @@
+  $(window).scroll(function(){
+
+    $('.g').each(function() {
+        $(this).find('li:not(:first-child)').hide();
+
+        var that = this;
+
+        $(this).find('li:not(:first-child)').hide();
+
+        $(this).magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1]
+          },
+          mainClass: 'mfp-img-mobile',
+          image: {
+            titleSrc: function(item) {
+              var item = $('li', $(that)).eq(item.index);
+              var captionAndCredit = $('.caption', item).html();
+              console.log(item.index);
+
+              return captionAndCredit;
+            },
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+          }
+        });
+      });
+});
+
 $(function() {
   
   var postURLs,

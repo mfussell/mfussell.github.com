@@ -3,8 +3,26 @@ layout: default
 title: Home
 ---
 
+<script>
+$( document ).ready(function() {
+  $('.post').each(function() {
+     $(this).append('<a href="' + $(this).find('h1 a').attr('href') + '">read more</a>');
+    });
+});
+
+$(window).scroll(function(){
+  $('.comment-count').hide();
+  $('.post').each(function() {
+  $(this).css('opacity','1');
+  });
+
+
+});
+</script>
 <div id="home">
-  <h1>mf.com</h1>
+  <div class="logobox">
+    <h1 class="sitelogo">mf</h1>
+  </div>
   <div class="posts">
     
     {% for post in site.posts limit: 2 %}

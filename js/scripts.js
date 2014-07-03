@@ -10,10 +10,13 @@ jQuery( document ).ready(function( $ ) {
   });
 
 
+    $('.g').each(function() {
 
-  jQuery('.g').each(function() {
-        $("div img").hide().filter(":first-child").show();
+        $(this).find('li:not(:first-child)').hide();
+
         var that = this;
+
+        $(this).find('li:not(:first-child)').hide();
 
         $(this).magnificPopup({
           delegate: 'a',
@@ -36,7 +39,8 @@ jQuery( document ).ready(function( $ ) {
           }
         });
       });
-     $('.g li:not(:first-child)').hide();
+ 
+     
      $(document).foundation({
         topbar: {
           custom_back_text: true,
@@ -44,9 +48,10 @@ jQuery( document ).ready(function( $ ) {
           mobile_show_parent_link: true
         }
       });
+  
 
-  jQuery(window).load(function() {
-    jQuery("#compare1").twentytwenty();
+  $(window).load(function() {
+    $("#compare1").twentytwenty();
   });
  
   jQuery('#disqus_thread').click( function() {

@@ -1,0 +1,7 @@
+/* line 1, ../scss/front.scss */
+.post {
+  opacity: 0;
+  transition: all 1s ease-in;
+  box-shadow: 0 -4px #eee;
+  margin-bottom: 55px !important;
+}
