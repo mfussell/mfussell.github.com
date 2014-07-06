@@ -128,6 +128,14 @@
       <script>
 
 $( document ).ready(function() {
+
+  $('.post').each(function() {
+    $(this).append('<a href="' + $(this).find('h1 a').attr('href') + '">full post</a>');
+  });
+
+  
+
+
   function filterPath(string) {
   return string
     .replace(/^\//,'')
@@ -173,9 +181,7 @@ $( document ).ready(function() {
     }
     return [];
   }
-  $('.post').each(function() {
-     $(this).append('<a href="' + $(this).find('h1 a').attr('href') + '">read more</a>');
-    });
+
 });
 
 $(window).scroll(function(){

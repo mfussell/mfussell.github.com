@@ -1,3 +1,3 @@
 $(function() {
-
+  $('.full-link').remove();
 });

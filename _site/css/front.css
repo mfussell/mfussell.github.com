@@ -1,4 +1,22 @@
-/* line 1, ../scss/front.scss */
+/*
+New Syntax, allows to optionally calculate on a different base value to counter compounding effect of rem's.
+Call with 1, 2, 3 or 4 parameters, 'px' is not required but supported:
+
+  rem-calc(10 20 30px 40);
+
+Space delimited, if you want to delimit using comma's, wrap it in another pair of brackets
+
+  rem-calc((10, 20, 30, 40px));
+
+Optionally call with a different base (eg: 8px) to calculate rem.
+
+  rem-calc(16px 32px 48px, 8px);
+
+If you require to comma separate your list
+
+  rem-calc((16px, 32px, 48), 8px);
+*/
+/* line 3, ../scss/front.scss */
 .post {
   opacity: 0;
   transition: all 1s ease-in;
@@ -7,7 +25,7 @@
   border-bottom: 1px solid #ccc;
 }
 
-/* line 9, ../scss/front.scss */
+/* line 11, ../scss/front.scss */
 .arrow-wrap {
   position: fixed;
   z-index: 1;
@@ -21,11 +39,6 @@
   border-radius: 50%;
   font-size: 0.5em;
   display: block;
-}
-
-/* line 24, ../scss/front.scss */
-.myname {
-  margin-top: 3em;
 }
 
 /* line 29, ../scss/front.scss */
