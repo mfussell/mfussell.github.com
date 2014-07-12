@@ -1,0 +1,169 @@
+/* line 1, ../scss/cd.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/cd.scss */
+body {
+  text-align: center;
+}
+
+/* line 9, ../scss/cd.scss */
+img#bg {
+  background: url(/assets/charleston.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  min-height: 800px;
+}
+
+/* line 19, ../scss/cd.scss */
+h1 {
+  font-size: 28pt;
+  letter-spacing: 12px;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+/* line 26, ../scss/cd.scss */
+h2.subtitle {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+/* line 31, ../scss/cd.scss */
+#container {
+  margin: auto;
+  width: 90%;
+  color: #555;
+  background: #fff;
+  opacity: .8;
+  padding: 25px;
+  height: 290px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 44, ../scss/cd.scss */
+#countdown_dashboard {
+  height: 110px;
+  width: auto;
+  display:inline-block;
+  margin: auto;
+}
+
+/* line 50, ../scss/cd.scss */
+.dash {
+  width: 110px;
+  height: 114px;
+  background: transparent url("/assets/dash.png") 0 0 no-repeat;
+  float: left;
+  margin-left: 20px;
+  position: relative;
+}
+
+/* line 58, ../scss/cd.scss */
+div.seconds_dash {
+  display: none;
+}
+
+/* line 62, ../scss/cd.scss */
+.dash .digit {
+  font-size: 55pt;
+  font-weight: bold;
+  float: left;
+  width: 55px;
+  text-align: center;
+  font-family: Times;
+  color: #555;
+  position: relative;
+  line-height: 100px;
+}
+
+/* line 74, ../scss/cd.scss */
+.dash_title {
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  right: 6px;
+  font-size: 9pt;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 85, ../scss/cd.scss */
+.dev_comment {
+  font-size: 14pt;
+  color: #777;
+  text-align: center;
+  font-style: italic;
+  margin: 40px 10px;
+}
+
+/* line 93, ../scss/cd.scss */
+#subscribe_form {
+  position: relative;
+}
+
+/* line 97, ../scss/cd.scss */
+#email_field {
+  font-size: 16pt;
+  padding: 6px 10px;
+  width: 300px;
+}
+
+/* line 103, ../scss/cd.scss */
+#subscribe_button {
+  font-size: 14pt;
+  color: #333;
+  padding: 4px 8px;
+}
+
+/* line 109, ../scss/cd.scss */
+.copyright {
+  font-size: 9pt;
+  color: #333;
+  margin: 40px 0px;
+}
+
+/* line 115, ../scss/cd.scss */
+.faded {
+  color: #999;
+}
+
+/* line 119, ../scss/cd.scss */
+.form_message {
+  width: 400px;
+  padding: 10px;
+  margin: 15px auto;
+  display: none;
+}
+
+/* line 126, ../scss/cd.scss */
+#error_message {
+  background-color: #ffe;
+  border-left: 5px solid #bb3;
+  border-right: 5px solid #bb3;
+  color: #770;
+}
+
+/* line 133, ../scss/cd.scss */
+#info_message {
+  background-color: #f0f9ff;
+  border: 1px solid #eef;
+}
+
+/* line 138, ../scss/cd.scss */
+#loading {
+  text-align: center;
+  margin: 10px;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 60px;
+}

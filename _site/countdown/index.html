@@ -10,7 +10,7 @@
 
   <title>
     
-      404: Page not found &middot; Michael Fussell
+      Countdown &middot; Michael Fussell
     
   </title>
 
@@ -72,7 +72,7 @@
         </section>
         <section class="middle tab-bar-section">
         
-          <a href="/">home</a> >>  404: Page not found
+          <a href="/">home</a> >>  Countdown
          
         
         </section>
@@ -127,9 +127,115 @@
 
        
       <h4 class="post-summary"></h4>
-      <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+      <div class="page-33">
+  <link rel="stylesheet" href="/css/cd.css">
+<link rel="stylesheet" href="/css/supersized.css">
+<script type="text/javascript" src="/js/countdown.js"></script>
+<script type="text/javascript" src="/js/supersized.min.js"></script>
+    
+<script type="text/javascript">  
+  
+  jQuery(function($){
+    $.supersized({
+    
+      //Functionality
+      slideshow               :   1,    //Slideshow on/off
+      autoplay        : 1,    //Slideshow starts playing automatically
+      start_slide             :   1,    //Start slide (0 is random)
+      random          :   1,    //Randomize slide order (Ignores start slide)
+      slide_interval          :   6000, //Length between transitions
+      transition              :   1,    //0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+      transition_speed    : 3000, //Speed of transition
+      new_window        : 1,    //Image links open in new window/tab
+      pause_hover             :   0,    //Pause slideshow on hover
+      keyboard_nav            :   1,    //Keyboard navigation on/off
+      performance       : 1,    //0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+      image_protect     : 1,    //Disables image dragging and right click with Javascript
+      image_path        : 'assets/', //Default image path
+
+      //Size & Position
+      min_width           :   0,    //Min width allowed (in pixels)
+      min_height            :   0,    //Min height allowed (in pixels)
+      vertical_center         :   1,    //Vertically center background
+      horizontal_center       :   1,    //Horizontally center background
+      fit_portrait          :   1,    //Portrait images will not exceed browser height
+      fit_landscape     :   0,    //Landscape images will not exceed browser width
+      
+      //Components
+      navigation              :   1,    //Slideshow controls on/off
+      thumbnail_navigation    :   1,    //Thumbnail navigation
+      slide_counter           :   1,    //Display slide numbers
+      slide_captions          :   0,    //Slide caption (Pull from "title" in slides array)
+      slides          :   [   //Slideshow Images
+                         
+                        {image : 'http://floridaanswerstopersonalinjuryquestions.com/wp-content/uploads/2012/05/Beach.jpg', title : '', url : '#'},
+                        {image : 'http://www.travelingtousa.net/gallery/what-to-visit-in-florida/florida_beach.jpg', title : '', url : '#'},  
+                        {image : 'http://paradiseintheworld.com/wp-content/uploads/2012/03/florida-beach.jpg', title : '', url : '#'}, 
+                        {image : 'http://www.fivestargulfrentals.com/wp-content/uploads/2012/03/z_DSC1831.jpg', title : '', url : '#'},
+                        {image : 'http://www.desktop-backgrounds.com/images/dreamy-florida-beach.jpg', title : '', url : '#'}
+                    
+                    ]
+                    
+    }); 
+    });
+    
+</script>
+
+<div id="container">
+
+    <h1>Florida</h1>
+    <h2 class="subtitle">Vacation Countdown</h2>
+
+    <div id="countdown_dashboard">
+      <div class="dash weeks_dash">
+        <span class="dash_title">weeks</span>
+        <div class="digit">0</div>
+        <div class="digit">0</div>
+      </div>
+      <div class="dash days_dash">
+        <span class="dash_title">days</span>
+        <div class="digit">0</div>
+        <div class="digit">0</div>
+      </div>
+      <div class="dash hours_dash">
+        <span class="dash_title">hours</span>
+        <div class="digit">0</div>
+        <div class="digit">0</div>
+      </div>
+      <div class="dash minutes_dash">
+        <span class="dash_title">minutes</span>
+        <div class="digit">0</div>
+        <div class="digit">0</div>
+      </div>
+      <div class="dash seconds_dash">
+        <span class="dash_title">seconds</span>
+        <div class="digit">0</div>
+        <div class="digit">0</div>
+      </div>
+
+    </div>
+ </div>
+  
+
+<script language="javascript" type="text/javascript">
+  jQuery(document).ready(function() {
+    $('#countdown_dashboard').countDown({
+      targetDate: {
+        'day':    19,
+        'month':  9,
+        'year':   2014,
+        'hour':   0,
+        'min':    0,
+        'sec':    0
+      }
+    });
+    
+  });
+</script>
+  
+ 
+
+
 </div>
 
 
