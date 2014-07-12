@@ -31,7 +31,7 @@ jQuery( document ).ready(function( $ ) {
             titleSrc: function(item) {
               var item = $('li', $(that)).eq(item.index);
               var captionAndCredit = $('.caption', item).html();
-              console.log(item.index);
+             // console.log(item.index);
 
               return captionAndCredit;
             },

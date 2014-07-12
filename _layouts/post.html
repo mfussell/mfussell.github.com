@@ -7,11 +7,11 @@ comments: true
   <h1>
   <a href="{{ page.url }}">{{ page.title }}</a>
   </h1>
-  {% if page.comments %}
+
     <div class="comment-count">
       <i class="fa fa-comments-o"></i><a href="#disqus_thread">Link</a>
     </div>
-  {% endif %}
+
   <span class="post-date clearfix">{{ page.date | date_to_string }}</span>
   {{ content }}
   <a class="full-link" href="{{ page.url }}">full post</a>
