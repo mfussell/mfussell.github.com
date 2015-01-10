@@ -1,0 +1,32 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Most of the sites I've built are long gone or have changed so significantly that showing the current iteration wouldn't make much sense.
+                      I guess that's a good reason to periodically save screenshots. Since starting with NPR in 2011, I've been working primarily on a product - Core Publisher (CP) - that allows stations to publish their own content and share with other NPR stations.
+                      CP is built using Drupal, the same open-source CMS used by <a href="http://whitehouse.gov">Whitehouse.gov</a>, <a href="http://theeconomist.com">The Economist</a>, and <a href="http://weather.com">Weather.com</a>. Below are a few station sites that demonstrate what can be done using CP.
+                      </h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for post in site.posts %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
