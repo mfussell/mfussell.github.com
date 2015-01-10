@@ -1,63 +1,27 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-
-  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-
-  <!-- CSS -->
-   {% if page.css != nil %}
-     <link rel="stylesheet" href="{{ site.baseurl }}css/{{ page.css }}.css">
-   {% endif %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 
-  <link rel="stylesheet" href="{{ site.baseurl }}css/efd.css">
-   {% if page.title == "Home" %}
-   <link rel="stylesheet" href="{{ site.baseurl }}css/front.css">
-   <script type="text/javascript" src="{{ site.baseurl }}js/infinite.js"></script>
-   <link rel="stylesheet" href="{{ site.baseurl }}css/infinite-spinner.css">
-   {% else %}
-   <link rel="stylesheet" href="{{ site.baseurl }}css/post-only.css">
-   <script type="text/javascript" src="{{ site.baseurl }}js/post.js"></script>
-   {% endif %}
-  <link rel="stylesheet" href="{{ site.baseurl }}css/layout.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
-  
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}css/magnific-popup.css">
-  
-  <link rel="stylesheet" href="{{ site.baseurl }}fontawesome/css/font-awesome.min.css">
-  
-  <script type="text/javascript" src="{{ site.baseurl }}foundation/js/foundation.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}foundation/js/foundation/foundation.offcanvas.js"></script>
-   <script type="text/javascript" src="{{ site.baseurl }}foundation/js/foundation/foundation.topbar.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}js/scripts.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}js/jquery.magnific.popup.min.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}js/modernizr.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}js/jquery.twentytwenty.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}js/jquery.event.move.js"></script>
-  
-    <script>
-    $(document).foundation();
-  </script>
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
- <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}atom.xml">
- 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>

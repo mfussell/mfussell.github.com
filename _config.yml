@@ -1,27 +1,72 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+url: https://y7kim.github.io
+baseurl:
 
-# Permalinks
-permalink:        pretty
+# Site settings
+title: MaF
+email: fussell@gmail.com
+description: "My website."
 
-# Setup
-title:            Michael Fussell
-tagline:          notes code snippets and whatnot
-url:              http://michaelfussell.com
-paginate:         1
-baseurl:          /
-author:
-  name:           Mike Fussell
-  url:            https://twitter.com/fussell
-  email:          fussell@gmail.com
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503
+  secondary-dark: 333
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/mfussell
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
 
-# This is the list of pages to incldue in the header of the website.
-pages_list: 
-  About: '/about'
-  Blog: '/blog'
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/fussell
+  - title: facebook
+    url: http://facebook.com/fussell
+  - title: github
+    url: http://github.com/mfussell
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Baltimore, CA 90210
+
+picasa_album:
+    thumbnail_size: 2
+    gallery_tag: div
+    gallery_class: gallery
+    a_class: fancybox
+
+# Build settings
+markdown: kramdown
+permalink: pretty
