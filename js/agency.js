@@ -15,43 +15,23 @@ $(function() {
     });
 });
 
-$(function(){
-  $(".fancybox")
-  .attr('rel', 'gallery')
-  .fancybox({
-    padding    : 0,
-    margin     : 5,
-    nextEffect : 'fade',
-    prevEffect : 'none',
-    autoCenter : false
-  });
-});
-
-function fancyBoxMe(index){
-  var gallerySize = $(".timeline-image img").size();
-  if((index+1) == gallerySize){ nexT = 0 } else { nexT = index+1}
-  if(index == 0){ preV = (gallerySize-1) } else { preV = index-1}
-  var tarGet = $('.timeline-image img').eq(index).attr('src');
-  $.fancybox({
-    'transitionIn' : 'elastic',
-    'transitionOut' : 'elastic',
-    'speedIn' : 600,
-    'speedOut' : 200,
-    'overlayShow' : false,
-    'href': tarGet,
-    'titlePosition': 'inside',
-    'titleFormat' : function(){
-      return 'Image '+(index+1)+' of '+gallerySize+'<a id="preV" href="javascript:;" onclick="fancyBoxMe('+preV+')">prev</a> <a id="nexT" href="javascript:;" onclick="fancyBoxMe('+nexT+')">next</a>';
+function fancyBoxMe(photos) {
+  $.fancybox.open(photos, 
+    {
+      'padding'    : 0,
+      'margin'     : 5,
+      'nextEffect' : 'fade',
+      'prevEffect' : 'none',
+      'autoCenter' : false,
+      'transitionIn' : 'elastic',
+      'transitionOut' : 'elastic',
+      'speedIn' : 600,
+      'speedOut' : 200,
+      'overlayShow' : false,
+      'titlePosition': 'inside'
     }
-  }); // fancybox
+  ); // fancybox
 } // fancyBoxMe
-$(document).ready(function() {
-  $(".timeline-image img").each(function(i){
-    $(this).bind('click', function(){
-      fancyBoxMe(i);
-    }); //bind
-  }); //each
-}); // ready
 
 $( document ).ready(function() {
   $(".gallery").each(function(index) {
