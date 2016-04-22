@@ -1,0 +1,31 @@
+html, body {
+margin: 0;
+padding: 0;
+}
+#chart_div {
+width: 100%;
+height: 100%;
+min-height: 800px;
+z-index: 99;
+position: relative;
+}
+
+
+.title {
+position: absolute;
+top: 30px;
+width: 600px;
+left: 50%;
+margin-left: -300px;
+font-size: 3em;
+border: 1px solid #eee;
+border-radius: 3px;
+z-index: 999;
+background: #222;
+color: #fff;
+opacity: .8;
+padding: .5em 1em;
+  @media (max-width: 600px) {
+    color: red;
+  }
+}
